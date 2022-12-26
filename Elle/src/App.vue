@@ -1,5 +1,4 @@
 <template>
-
 	<div class="app">
 		<!-- Sidebar -->
 		<Sidebar />
@@ -12,8 +11,6 @@
 <script setup>
 import Sidebar from './components/Sidebar.vue'
 </script>
-
-
 
 <style lang="scss">
 :root {
