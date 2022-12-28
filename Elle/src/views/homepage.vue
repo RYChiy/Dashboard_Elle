@@ -1,11 +1,23 @@
 <template>
+	
 
-  <h1>GFUTEN tag=""</h1>
-   
+		
+    <Sidebar />
+		
+		
+
+
 </template>
  
- <script>
+ <script >
+import Sidebar from "../components/Sidebar.vue"
 
+export default {
+  
+  name: "HomePage",
+  components: {
+    Sidebar
+  }}
  </script>
  
  <style>

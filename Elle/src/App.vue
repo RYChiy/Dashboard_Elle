@@ -1,15 +1,17 @@
 <template>
 	<div class="app">
 		<!-- Sidebar -->
-		<Sidebar />
+		
 
 		<!-- Content -->
 		<router-view />
 	</div>
 </template>
 
-<script setup>
+<script >
 import Sidebar from './components/Sidebar.vue'
+
+
 </script>
 
 <style lang="scss">
