@@ -1,4 +1,5 @@
 <template>
+  <div class="position">
   <aside :class="`${is_expanded ? 'is-expanded' : ''}`">
     <div class="logo">
       <img :src="logoURL" alt="Vue" />
@@ -39,6 +40,7 @@
       </router-link>
     </div>
   </aside>
+</div>
 </template>
 
 <script setup>
@@ -52,7 +54,11 @@ const ToggleMenu = () => {
 </script>
 
 <style lang="scss" scoped>
+
+
+
 aside {
+  margin-left: var(--sidebar-left);
   display: flex;
   flex-direction: column;
   background-color: #92c4e0;
@@ -169,9 +175,11 @@ aside {
       opacity: 0;
     }
   }
-  @media (max-width: 1024px) {
-    position: absolute;
+  @media (max-width: 768px) {
+    position: fixed;
     z-index: 99;
+    
   }
+  right: 0;
 }
 </style>
