@@ -1,12 +1,10 @@
 <template>
 	<main>
 
-		
-    <div class="kursuebersicht">
 
-      <Kurse />
-    </div>
-		
+
+    <Kurse/>
+
   </main>
 
 
@@ -40,11 +38,10 @@ height: 682px;
 background: #FFFFFF;
 /* White */
 
-border: 4px solid #e4ebfd;
+border: 4px  ;
 border-radius: 0px 10px 10px 0px;
 
-overflow:scroll;
-    overflow-x:hidden;
+
 }
 
  </style>
